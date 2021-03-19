@@ -1,0 +1,48 @@
+
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 1024px;
+    height: 82px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    background-color: #777;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 1.5em;
+}
+table{
+    border-collapse: collapse;
+    border: solid 1px;
+    width: 983px;
+    height: 126px;
+}
+tbody{
+    
+    border: 1px solid;
+    /* background-color: blue; */
+}
+thead{
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+th{
+    padding: 20px;
+}
+#corpo{
+    margin-left: 20px;
+}
+.formulario{
+    margin-top: 40px;
+}
+.item_formulario{
+    display: flex;
+    
+}
