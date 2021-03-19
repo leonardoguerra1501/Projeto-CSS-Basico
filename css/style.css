@@ -3,8 +3,8 @@ body{
     font-family: sans-serif;
 }
 header{
-    width: 1024px;
-    height: 82px;
+    width: 1026px;
+    height: 84px;
     padding-left: 10px;
     margin-bottom: 40px;
     background-color: #777;
@@ -20,7 +20,7 @@ h2{
 table{
     border-collapse: collapse;
     border: solid 1px;
-    width: 983px;
+    width: 984px;
     height: 126px;
 }
 tbody{
@@ -40,9 +40,17 @@ th{
     margin-left: 20px;
 }
 .formulario{
+    width: 984px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;   
+}
+.label_formulario{
+    padding: 10px 0;
+   display: block;
+
+}
+#titulo_fomulario{
     margin-top: 40px;
 }
-.item_formulario{
-    display: flex;
-    
-}
+

@@ -55,15 +55,17 @@
             </tbody>
         </table>
 
-        <div class="formulario">
-            <h2>Cadastrar Operações</h2>
-            <form method="post">
-                <div class="item_formulario">
-                    <label for="Nome">Nome do cliente</label>
-                    <input type="text" placeholder="ex: Darth Vader" id="Nome">
+        <div>
+            <h2 id="titulo_fomulario">Cadastrar Operações</h2>
+            <form method="post" class="formulario">
+
+                <div class="item_inline">
+                    <label class="label_formulario" for="Nome">Nome do cliente</label>
+                    <input id="linha_toda" type="text" placeholder="ex: Darth Vader" id="Nome">
                 </div>
+
                 <div class="item_formulario">
-                    <label for="operacao">Tipo de operação</label>
+                    <label class="label_formulario" for="operacao">Tipo de operação</label>
                     <select name="operacao" id="operacao">
                         <option value="Deposito">Deposito</option>
                         <option value="Pix">Pix</option>
@@ -73,19 +75,21 @@
                     </select>
                 </div>
                 <div class="item_formulario">
-                    <label for="valor">Valor creditado</label>
+                    <label class="label_formulario" for="valor">Valor creditado</label>
                     <input type="number" id="valor">
                 </div>
-                <div class="item_formulario">
-                    <label for="radio_select">Tipo de conta</label>
-                    <label for="corrente">Corrente</label>
-                    <input type="radio" name="conta" id="corrente">
+                <div>
+                    <label class="label_formulario" for="radio_select">Tipo de conta</label>
 
-                    <label for="poupanca">poupança</label>
+                    <input type="radio" name="conta" id="corrente">
+                    <label for="corrente">Corrente</label>
+
                     <input type="radio" name="conta" id="poupanca">
+                    <label for="poupanca">poupança</label>
+
                 </div>
                 <div class="item_formulario">
-                    <label for="Data">Data da Operação</label>
+                    <label class="label_formulario" for="Data">Data da Operação</label>
                     <input type="date" id="Data">
                 </div>
             </form>
