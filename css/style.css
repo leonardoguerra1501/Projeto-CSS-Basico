@@ -3,8 +3,6 @@ body{
     font-family: sans-serif;
 }
 header{
-    /* width: 1026px; */
-    /* height: 84px; */
     padding: 15px calc((100% - 984px) / 2);
     margin-bottom: 40px;
     background-color: #777;
@@ -31,7 +29,8 @@ th{
     padding: 20px;
 }
 #corpo{
-    padding: 0px calc((100% - 984px) / 2);
+    margin: 0px auto;
+    max-width: 984px;
     
    
 }
