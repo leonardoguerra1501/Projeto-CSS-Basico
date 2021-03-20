@@ -3,9 +3,9 @@ body{
     font-family: sans-serif;
 }
 header{
-    width: 1026px;
-    height: 84px;
-    padding-left: 10px;
+    /* width: 1026px; */
+    /* height: 84px; */
+    padding: 15px calc((100% - 984px) / 2);
     margin-bottom: 40px;
     background-color: #777;
     color: white;
@@ -31,16 +31,24 @@ th{
     padding: 20px;
 }
 #corpo{
-    max-width:984px;
-    margin-left: 20px;
+    padding: 0px calc((100% - 984px) / 2);
     
    
 }
-.form_nomeCliente input{
-    width: 968px;
+.item_inline{
+    display: flex;
+    flex-direction: row;
     height: 33px;
     margin-bottom: 35px; 
+    flex-wrap: wrap;
 }
+.item_inline input{
+    flex: 1;
+}
+.item_inline label{
+    flex-basis: 100%;
+}
+
 .formulario{
     width: 984px;
     display: flex;
@@ -49,7 +57,7 @@ th{
 }
 .label_formulario{
     padding: 10px 0;
-   display: block;
+    display: block;
 
 }
 #titulo_fomulario{
