@@ -3,16 +3,20 @@ body{
     font-family: sans-serif;
 }
 header{
-    padding: 15px 10%;
+    padding: 15px;
     width: 100%;
     margin-bottom: 40px;
-    background-color: #777;
+    background-color: #777;   
+}   
+header h1{
     color: white;
+    max-width: 984px;
+    margin: 0 auto;
     font-size: 2.5em;
     font-weight: bold;
-    display: flex;
-    align-items: center;
+    /* border: 1px solid red; */
 }
+
 h2{
     font-size: 1.5em;
 }
@@ -29,9 +33,9 @@ thead{
 th{
     padding: 20px;
 }
-#corpo{
+main{
     margin: 0px auto;
-    width: 80%;
+    width: 984px;
     
    
 }
@@ -43,7 +47,7 @@ th{
     flex-wrap: wrap;
 }
 .item_inline input{
-    flex: 1;
+    width: 100%;
 }
 .item_inline label{
     flex-basis: 100%;
